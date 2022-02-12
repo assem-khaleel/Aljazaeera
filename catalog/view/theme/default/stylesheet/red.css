@@ -1,0 +1,68 @@
+/* iCheck plugin Flat skin
+----------------------------------- */
+.icheckbox_flat-red{
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 23px;
+    height: 21px;
+	background: url(../../../../../image/catalog/checkbox.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.icheckbox_flat-red {
+    background-position: 0px 0;
+}
+.icheckbox_flat-red.checked {
+	background-position: 0px -21px;
+}
+.icheckbox_flat-red.disabled {
+  	 background-position: 0px -21;
+        cursor: default;
+}
+.icheckbox_flat-red.checked.disabled {
+        background-position: -66px 0;
+ }
+
+
+/* iradio plugin Flat skin
+----------------------------------- */
+
+.iradio_flat-red {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    background: url(../../../../../image/catalog/radio-btn.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.iradio_flat-red {
+    background-position: 0px -17px;
+}
+.iradio_flat-red.checked {
+        background-position: 0px 0;
+}
+.iradio_flat-red.disabled {
+        background-position: 0px 0;
+        cursor: default;
+}
+.iradio_flat-red.checked.disabled {
+        background-position: -154px 0;
+}
+
+/* HiDPI support */
+/*@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_flat-red,
+    .iradio_flat-red {
+        background-image: url(../../../../../image/catalog/red@2x.png);
+        -webkit-background-size: 176px 22px;
+        background-size: 176px 22px;
+    }
+}*/
+
